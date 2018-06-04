@@ -1,0 +1,227 @@
+"Term","Replacement"
+"President Donald J. Trump",presidentTrump
+"President-elect Donald J Trump",presidentTrump
+"President-elect Donald J. Trump",presidentTrump
+"Donald Trump",presidentTrump
+"president-elect Donald Trump",presidentTrump
+"Republican president-elect",presidentTrump
+"president-elect",presidentTrump
+President Donald Trump,presidentTrump
+"President Trump",presidentTrump
+" trumps"," presidentTrump"
+" trump"," presidentTrump"
+" Trump"," presidentTrump"
+" trump"," presidentTrump"
+"U.S. president",presidentTrump
+"Priebus",trumpAdministration
+"White House",trumpAdministration
+"Reince Priebus",trumpAdministration
+"Cabinet",trumpAdministration
+" Trump administration"," trumpAdministration"
+administration officials,trumpAdministration
+Trump administration moves,trumpAdministration
+security adviser,trumpAdministration
+security officials,trumpAdministration
+policy makers,trumpAdministration
+American officials,trumpAdministration
+"administration",trumpAdministration
+"staff",trumpAdministration
+"campaign",trumpCampaign
+"reelection",trumpCampaign
+"campaign pledges",trumpCampaign
+"wall promise",trumpCampaign
+"vote tallies",trumpCampaign
+"vote",trumpCampaign
+"election",trumpCampaign
+"tweeted",trumpTweets
+"tweet Friday morning",trumpTweets
+tweets,trumpTweets
+"border wall",borderWall
+"border barrier",borderWall
+"border fencing",borderWall
+"immigration barriers",borderWall
+"single-layer fence",borderWall
+"barrier",borderWall
+"fencing",borderWall
+"bridges",infrastructureImprovement
+"roads",infrastructureImprovement
+"taxpayer dollars",borderWallFunding
+"taxpayer money",borderWallFunding
+"block money",borderWallFunding
+"taxpayer funding",borderWallFunding
+"wall funding",borderWallFunding
+"spending bill",borderWallFunding
+"border measure",borderWallProposal
+"multi-billion dollar plan",borderWallProposal
+"immigration reform package",borderWallProposal
+"must-pass spending bill",borderWallProposal
+"plan on border security",borderWallProposal
+"CBP proposal",borderWallProposal
+"package on immigration",borderWallProposal
+"administration plans",borderWallProposal
+"anti-immigrant bills",borderWallProposal
+"2006 Secure Fence Act",usLaw
+"National Environmental Policy Act",usLaw
+"Endangered Species Act",usLaw
+"Federal Water Pollution Control Act",usLaw
+"National Historic Preservation Act",usLaw
+"Eagle Protection Act",usLaw
+"Congress",usGovernment
+"American government",usGovernment
+"Appropriations Committee",usGovernment
+"Government Accountability Office",usGovernment
+"House Appropriations Committee",usGovernment
+"Lawmakers",usGovernment
+"House Intelligence Committee",usGovernment
+"committees",usGovernment
+"senators",usGovernment
+"U.S. Customs and Border Protection",usAgencies
+"Customs and Border Protection",usAgencies
+"Secretary of Homeland Security",usAgencies
+"Department of Homeland Security",usAgencies
+"Homeland Security secretary",usAgencies
+"Customs and Border Security spokesman",usAgencies
+"National Park Service",usAgencies
+"intelligence community",usIntelligence
+"intelligence agencies",usIntelligence
+"intelligence expert",usIntelligence
+"intelligence report",usIntelligence
+"National security officials",usIntelligence
+"cyber infrastructure",usInformationSystems
+"information age",usInformationSystems
+Defense Department,usMilitary
+Pentagon,usMilitary
+American forces,usMilitary
+Army,usMilitary
+"representative Chris Collins",republican
+"Jennifer Hing",republican
+"GOP lawmakers and aides",republican
+"red-state senators",republican
+"Jeff Flake",republican
+"Republicans",republican
+"Republican",republican
+"representative Nancy Pelosi",democrat
+"Senator Patrick J Leahy",democrat
+"Democratic",democrat
+"democrats",democrat
+"Democrat",democrat
+"Durbin",democrat
+"Mexico",mexico
+"Mexican government",mexico
+"Southern border",mexico
+"Mexican border",mexico
+"Russia",russia
+"Russians",russia
+"Moscow",russia
+"Russian",russia
+"adversary",russia
+"Russia policy",russia
+"giant neighbor",russia
+"hacks",russianHacks
+"espionage",russianHacks
+"intrusions",russianHacks
+"cyber attacks",russianHacks
+"cyber",russianHacks
+"Russian interference",russianInfluence
+"influence campaign",russianInfluence
+"misinformation",russianInfluence
+"influence",russianInfluence
+"New leaks",russianInfluence
+"revelations",russianInfluence
+"russia propaganda",russianInfluence
+"propaganda",russianInfluence
+"bilateral meeting",summit
+"Russian behavior",poisonAttack
+"nerve-gas attack",poisonAttack
+"nerve agent poisoning",poisonAttack
+"poisoning",poisonAttack
+"chemical war agent",nerveAgent
+"chemical weapon",nerveAgent
+"American expulsion order",russianExpulsionByTrump
+"expulsion order",russianExpulsionByTrump
+"White House action",russianExpulsionByTrump
+"expulsions",russianExpulsionByTrump
+"expulsion",russianExpulsionByTrump
+"diplomatic action",russianExpulsionByAllies
+"coordinated effort",russianExpulsionByAllies
+"solidarity",russianExpulsionByBritain
+"Russian spy",sergeiSkripal
+"Skripals",sergeiSkripal
+"Skripal"sergeiSkripal
+"Putin",putin
+"Russian president",putin
+"Germany",usAllies
+"France",usAllies
+"China",china
+Beijing,china
+Chinese official,china
+Chinese,china
+North Korea,northKorea
+"North Koreans",northKorea
+"North Korean",northKorea
+Pyongyang,northKorea
+regime,northKorea
+adversary nation,northKorea
+"regime",northKorea
+"DPRK",northKorea
+Kim Jong-un,littleRocketMan
+"Kim Jong Un",littleRocketMan
+Kim,littleRocketMan
+South Korea,southKorea
+Seoul,southKorea
+National Assembly,southKorea
+Seoul,southKorea
+THAAD system,thaadSystem
+THAAD,thaadSystem
+demilitarized zone,nkBorder
+highly-fortified border,nkBorder
+Joint Security Area,nkBorder
+minefield,nkBorder
+weapons program,northKoreaNuclearWeapons
+missile,northKoreaNuclearWeapons
+arsenal,northKoreaNuclearWeapons
+launchpad,northKoreaNuclearWeapons
+Preventive war,militaryActionAgainstNorthKorea
+Kill-Chain,militaryActionAgainstNorthKorea
+"British soil",britain
+"United Kingdom",britain
+"California",usStates
+"Texas",usStates
+"United States",unitedStates
+"America",unitedStates
+Washington,unitedStates
+Chicago,unitedStates
+American,unitedStates
+Los Angeles,unitedStates
+"U.S.",unitedStates
+"DACA",daca
+"Deferred Action for Childhood Arrivals",daca
+"Graham",accusersOfRussianInfluence
+"Senators Lindsey Graham",accusersOfRussianInfluence
+"John McCain",accusersOfRussianInfluence
+"Nunes",accusersOfRussianInfluence
+"representative Devin Nunes",accusersOfRussianInfluence
+"President George W. Bush",presidentBush
+"Bush",presidentBush
+"candidate Hillary Clinton",hillaryClinton
+"Hillary Clinton",hillaryClinton
+"anti-Clinton",hillaryClinton
+"Crooked Hillary Clinton",hillaryClinton
+"Clinton",hillaryClinton
+President Barack Obama,presidentObama
+Barack Obama,presidentObama
+Obama,presidentObama
+President Park Geun-hye,presidentSK
+"Democratic emails",clintonEmail
+"Wall Street Journal",usMedia
+"CNN",usMedia
+"commentators",usMedia
+"David Sanger",usMedia
+"New York Times",usMedia
+"Associated Press",usMedia
+"reporters",usMedia
+"Matthew Chance",usMedia
+"Efren C. Olivares",efrenOlivares
+"Texas Civil Rights Project in Alamo",efrenOlivares
+"Brian Segee",brianSegee
+"Center for Biological Diversity",brianSegee
