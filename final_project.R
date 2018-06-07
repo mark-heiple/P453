@@ -394,12 +394,12 @@ z = replace_dsi_numbers(z)
 res <- hcut(z, k = 3, stand = TRUE)
 
 jpeg(file = paste(outdir,"fig_dend.jpg",sep=""), width = 960, height = 960)
-fviz_dend(res, rect = TRUE, cex = 1.4, horiz=TRUE, labels_track_height = 30,
+fviz_dend(res, rect = TRUE, cex = 1.8, horiz=TRUE, labels_track_height = 30,
           k_colors = c("red","blue", "darkgreen", "purple"))
 dev.off()
 
 jpeg(file = paste(outdir,"fig_phylo.jpg",sep=""), width = 960, height = 960)
-fviz_dend(res, rect = TRUE, cex = 1.4, labels_track_height = 32, type="phylogenic", repel=TRUE,
+fviz_dend(res, rect = TRUE, cex = 1.8, labels_track_height = 32, type="phylogenic", repel=TRUE,
           k_colors = c("red","blue", "darkgreen", "purple"))
 dev.off()
 
@@ -407,12 +407,12 @@ dev.off()
 res <- hcut(z, k = 4, stand = TRUE)
 
 jpeg(file = paste(outdir,"fig_dend4.jpg",sep=""), width = 960, height = 960)
-fviz_dend(res, rect = TRUE, cex = 1.4, horiz=TRUE, labels_track_height = 30,
+fviz_dend(res, rect = TRUE, cex = 1.8, horiz=TRUE, labels_track_height = 30,
           k_colors = c("red","blue", "darkgreen", "purple"))
 dev.off()
 
 jpeg(file = paste(outdir,"fig_phylo4.jpg",sep=""), width = 960, height = 960)
-fviz_dend(res, rect = TRUE, cex = 1.4, labels_track_height = 32, type="phylogenic", repel=TRUE,
+fviz_dend(res, rect = TRUE, cex = 1.8, labels_track_height = 32, type="phylogenic", repel=TRUE,
           k_colors = c("red","blue", "darkgreen", "purple"))
 dev.off()
 
@@ -420,12 +420,12 @@ dev.off()
 res <- hcut(z, k = 5, stand = TRUE)
 
 jpeg(file = paste(outdir,"fig_dend5.jpg",sep=""), width = 960, height = 960)
-fviz_dend(res, rect = TRUE, cex = 1.4, horiz=TRUE, labels_track_height = 30,
+fviz_dend(res, rect = TRUE, cex = 1.8, horiz=TRUE, labels_track_height = 30,
           k_colors = c("red","blue", "darkgreen", "purple","orange"))
 dev.off()
 
 jpeg(file = paste(outdir,"fig_phylo5.jpg",sep=""), width = 960, height = 960)
-fviz_dend(res, rect = TRUE, cex = 1.4, labels_track_height = 32, type="phylogenic", repel=TRUE,
+fviz_dend(res, rect = TRUE, cex = 1.8, labels_track_height = 32, type="phylogenic", repel=TRUE,
           k_colors = c("red","blue", "darkgreen", "purple","orange"))
 dev.off()
 
@@ -639,8 +639,21 @@ dev.off()
 library(NbClust)
 library(cluster)
 #elbow method for PAM
+jpeg(file = paste(outdir,"fig_elbow_kmeans.jpg",sep=""), width = 960, height = 960)
+fviz_nbclust(z, kmeans, method = "wss") +
+  geom_vline(xintercept = 5, linetype = 2)
+dev.off()
+
+jpeg(file = paste(outdir,"fig_elbow_pam.jpg",sep=""), width = 960, height = 960)
 fviz_nbclust(z, pam, method = "wss") +
   geom_vline(xintercept = 5, linetype = 2)
+dev.off()
+
+jpeg(file = paste(outdir,"fig_elbow_hclust.jpg",sep=""), width = 960, height = 960)
+fviz_nbclust(z, hcut, method = "wss") +
+  geom_vline(xintercept = 5, linetype = 2)
+dev.off()
+
 
 #Average silhouette method for k-means clustering
 jpeg(file = paste(outdir,"fig_silhouette_kmeans.jpg",sep=""), width = 960, height = 960)
